@@ -75,8 +75,9 @@ a {
 }
 
 .block-text {
-    font-family: 'Сomic Sans MS', cursive;
+    font-family: 'Monotype Corsiva', cursive;
     font-size: 24px;
+    font-style: italic;
     color: rgb(38, 2, 168);
 }
 
