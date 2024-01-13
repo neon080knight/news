@@ -75,13 +75,21 @@ a {
 }
 
 .block-text {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Сomic Sans MS', cursive;
     font-size: 24px;
     color: rgb(38, 2, 168);
 }
 
 .image {
     width: 100%;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px gray;
+}
+
+.we {
+    width: 80%;
+    border-radius: 50%;
+    box-shadow: 15px 10px 10px gray;
 }
 
 .bird {
@@ -90,7 +98,7 @@ a {
 }
 
 @media (min-width: 641px) {
-    .image {
+    .image, .we {
         max-width: 592px;
     }
 }
